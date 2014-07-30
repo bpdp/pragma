@@ -1,0 +1,17 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "handlers": [
+        {
+            "path": "/",
+            "closure": "say_home",
+            "options": "[]"
+        },
+        {
+            "path": "/merdeka",
+            "closure": "say_merdeka",
+            "options": "[]"
+        }
+    ]
+}
