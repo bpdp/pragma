@@ -5,12 +5,12 @@
     "handlers": [
         {
             "path": "/",
-            "closure": "say_home",
+            "closure": "home",
             "options": "[]"
         },
         {
             "path": "/merdeka",
-            "closure": "say_merdeka",
+            "closure": "merdeka",
             "options": "[]"
         }
     ]
