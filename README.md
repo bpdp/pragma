@@ -1,7 +1,7 @@
 Turgo Project
 =============
 
-![Turgo Logo](resources/images/logo3.png)
+![Turgo Logo](assets/images/logo3.png)
 
 This project is meant to create a Pragmatic Web framework. It is the result of author's dissertation. As the dissertation is still in progress, in the meantime this framework is **very much unstable** and there's no documentation. This will surely be completed as time goes by.
 
