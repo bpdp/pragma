@@ -1,0 +1,21 @@
+{
+  "name": "turgojs",
+  "version": "0.0.1-BETA1",
+  "authors": [
+    "Bambang Purnomosidi D. P. <bambangpdp@yahoo.com>"
+  ],
+  "description": "Client side js for Turgo framework",
+  "license": "Apache License 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.6.1"
+  }
+}

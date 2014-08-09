@@ -11,19 +11,9 @@
 :- use_module(library(http/json)).
 :- use_module(library(http/http_server_files)).
 
-% Static resources - system wide
-% ex: images will be served by /assets/images/file.jpg
-%
-:- use_module(library(http/http_path)).
-:- multifile user:file_search_path/2.
+user:file_search_path(libs, 'libs').
 
-http:location(assets, root(assets), []).
-
-user:file_search_path(assets_root, 'assets').
-user:file_search_path(assets, assets_root(.)).
-
-:- http_handler(assets(.), serve_files_in_directory(assets), [prefix]).
-% end of static resources definition
+:- use_module(libs(conf/static_resources)).
 
 user:file_search_path(handlers, 'app/handlers').
 
@@ -49,6 +39,7 @@ turgo_server :-
   write('Start Turgo server at port '),
   write(Conf.server.port), nl,
   get_handlers(Conf.handlers,0),
+  set_assets_dir('assets'),
   http_server(http_dispatch, [port(Conf.server.port)]).
 
 :- turgo_server.
