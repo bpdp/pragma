@@ -1,3 +1,11 @@
+/** <module> static_resources.pl
+
+This module processes static resources
+
+@author Bambang Purnomosidi
+@license Apache License 2.0
+*/
+
 :- module(static_resources,
 	[ set_assets_dir/1
 	]).
