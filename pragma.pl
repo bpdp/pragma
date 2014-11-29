@@ -1,6 +1,7 @@
-/** <module>Turgo framework
+/** <module>Pragma framework
 
-  This module is used to develop Pragmatic Web application
+  This module is used to develop Web application
+  using SWI Prolog (devel 7.1.x)
 
   @author Bambang Purnomosidi
   @license Apache 2.0
@@ -18,7 +19,7 @@ user:file_search_path(libs, 'libs').
 user:file_search_path(handlers, 'app/handlers').
 
 read_config(Result) :-
-  open('app/conf/turgo.json',read,X),
+  open('app/conf/pragma.json',read,X),
   json_read_dict(X, Result),
   close(X).
 
@@ -34,7 +35,7 @@ get_handlers(Handlers, Start) :-
                       Newstart is Start + 1,
                       get_handlers(Handlers,Newstart));!).
 
-turgo_server :-
+pragma_server :-
   read_config(Conf),
   write('Start Turgo server at port '),
   write(Conf.server.port), nl,
@@ -42,4 +43,4 @@ turgo_server :-
   set_assets_dir('assets'),
   http_server(http_dispatch, [port(Conf.server.port)]).
 
-:- turgo_server.
+:- pragma_server.

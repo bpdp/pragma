@@ -1,20 +1,17 @@
-Turgo Project
-=============
+# Pragma Project
 
-![Turgo Logo](assets/images/logo3.png)
+[Pragma logo](assets/images/logo.png)
 
-This project is meant to create a Pragmatic Web framework. It is the result of author's dissertation. As the dissertation is still in progress, in the meantime this framework is **very much unstable** and there's no documentation. This will surely be completed as time goes by.
+Pragma project is an effort to develop Prolog Web framework.
 
-The Software
-============
+# The Software
 
-Build
------
+## Build
 
 This project uses [SWI Prolog](http://www.swi-prolog.org) (development branch currently 7.1.x). 
 
-License
--------
+## License
+
 ~~~
 Copyright 2014, Bambang Purnomosidi D. P.
 
@@ -31,8 +28,7 @@ Copyright 2014, Bambang Purnomosidi D. P.
    limitations under the License.
 ~~~
 
-Author
-======
+# Author
 
 The author ([Bambang Purnomosidi D. P.](http://bpdp.name)) is Ph.D candidate in [Electrical Engineering and Information Technology](http://pasca.te.ugm.ac.id), [Faculty of Engineering](http://www.fakultas-teknik.ugm.ac.id), [Gadjah Mada University](http://www.ugm.ac.id). He can be contacted by:
 * Email: bambangpdp-with-domain-name-yahoocom-or-gmailcom

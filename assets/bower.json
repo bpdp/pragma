@@ -1,10 +1,10 @@
 {
-  "name": "turgojs",
+  "name": "pragmajs",
   "version": "0.0.1-BETA1",
   "authors": [
     "Bambang Purnomosidi D. P. <bambangpdp@yahoo.com>"
   ],
-  "description": "Client side js for Turgo framework",
+  "description": "Client side js for Pragma framework",
   "license": "Apache License 2.0",
   "private": true,
   "ignore": [

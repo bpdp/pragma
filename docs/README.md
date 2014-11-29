@@ -1,16 +1,11 @@
-Turgo Documentation
-===================
+# Pragma Documentation
 
-Contents
---------
+## Contents
 * Introduction
-	*	The Pragmatic Web System
-	*	The Pragmatic Web Architecture
-* Pragmatic Web Application Development with Turgo
+* Web Application Development with Pragma
 	*	Getting Started
 	*	Complete Features
 
-Author
-======
+#Author
 
 [Bambang Purnomosidi D. P.](http://bpdp.name)
