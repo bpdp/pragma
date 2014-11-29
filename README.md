@@ -1,6 +1,6 @@
 # Pragma Project
 
-[Pragma logo](assets/images/logo.png)
+![Pragma logo](assets/images/logo.png)
 
 Pragma project is an effort to develop Prolog Web framework.
 
